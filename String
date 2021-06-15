@@ -1,0 +1,6 @@
+#create a string
+oldstring="vaishu"
+print("string=",oldstring)
+#replace the 3rd character with g
+newstring=oldstring.replace("i","g")
+print("new string=",newstring) 
