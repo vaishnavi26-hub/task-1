@@ -1,0 +1,22 @@
+#using data &varaible
+
+#creating a varaible
+
+a=1000
+b=2
+c=40
+
+#divide a by 10
+
+divide=a/10
+print("division=",+divide)
+
+#multiplication
+
+multiply=b*50
+print("multiply=",+multiply)
+
+#addition
+
+add=c+60
+print("add=",+add)
