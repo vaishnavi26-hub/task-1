@@ -1,0 +1,7 @@
+
+a=3
+b=2.6
+a=float(a)
+b=int(b)
+print("a=",+a)
+print("b=",+b)
