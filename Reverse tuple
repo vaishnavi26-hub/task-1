@@ -1,0 +1,6 @@
+#create a tuple
+name=("vaishu","sandhu","nandhu")
+print(name)
+#reverse of tuple
+newnamelist=reversed(name)
+print(tuple(newnamelist))
