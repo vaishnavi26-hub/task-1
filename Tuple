@@ -1,0 +1,5 @@
+#creating a tuple and coverttuplr into list
+atuple=('T','U','P','L','E')
+print(atuple)
+blist=list(atuple)
+print(blist)
