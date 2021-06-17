@@ -1,0 +1,6 @@
+#create dictionary
+test_dict={"vaishu":19,"nandhu":14,"sandhu":20,"geetha":14}
+print("the dictionary before performing remove is :"+str(test_dict))
+#remove a element from a dictionary
+del test_dict['geetha']
+print("the dictionary after remove is :"+str(test_dict))
