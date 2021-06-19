@@ -1,0 +1,6 @@
+def sub(a,b):
+    c=a-b
+    return c
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+print("subtraction of two number is",+sub(num1,num2))
