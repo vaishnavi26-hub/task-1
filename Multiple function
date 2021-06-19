@@ -1,0 +1,6 @@
+def multi(a,b):
+    c=a*b
+    return c
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+print("multiplication of two number is",+multi(num1,num2))
