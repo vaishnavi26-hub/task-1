@@ -1,0 +1,7 @@
+list=[6,5,4,3,2,1]
+list.sort
+print("list in descending orde",list)
+list.sort(reverse=True)
+print("list in ascending order:",list)
+set=set(list)
+print(set)
