@@ -1,0 +1,8 @@
+num=[]
+n=int(input('how many numbers:'))
+for i in range(n):
+    num.append(int(input('enter number:')))
+print("\n Given list:",num)
+print("repeated items of list:")
+n1=(int(input('enter number:')))
+print (n1,'occured',num.count(n1),'times')
