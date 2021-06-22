@@ -1,0 +1,27 @@
+#Create a real time scenario for inheritance  example ecommerce concept
+class Brands:                      #parent_class
+    brand_name_1 = "Dell"
+    brand_name_2 = "Acer"
+    brand_name_3 = "Apple"
+    
+class features(Brands):            #child_class
+    features_1 = "kasperkey"
+    features_2 = "Avast_antivirus"
+    features_3 = "Norton security"
+
+class ratings(Brands):        #grand_child_class
+    features_1_ratings =5
+    features_2_ratings=3
+    features_3_ratings = 4
+
+class Value(Brands):
+    Features_1_value = "Excellent Value"
+    Features_2_value = "Better Value"
+    Features_3_value = "Good Value"
+    
+obj_1 = features()          #Object_creation
+obj_2 = ratings()
+obj_3 = Value()
+print(obj_1.brand_name_1+" is an "+obj_1.features_1+" Ratings of "+str(obj_2.features_1_rantings)+" having "+obj_3.features_1_value)
+print(obj_1.brand_name_1+" is an "+obj_1.features_1+" Ratings of "+str(obj_2.features_2_ratings)+" having "+obj_3.features_2_value)
+print(obj_1.brand_name_1+" is an "+obj_1.features_1+" Ratings of "+str(obj_2.features_3_rantings)+" having "+obj_3.features_3_value)
