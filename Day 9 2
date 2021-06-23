@@ -1,0 +1,13 @@
+# to check whether a given number is armstrong or not
+n = int(input('enter a number ; '))
+temp = n
+sum =0
+while(n>0):
+n1=n%10
+sum=sum + n1**3
+n = n//10
+print(sum)
+if(sum == temp):
+print('given number’,temp,’ is armstrong')
+else :
+print('given number’,temp,’ is not armstrong')
