@@ -1,0 +1,8 @@
+#create a program that multiply the numbers in list with given number
+nums = [1,2,3,4,5]
+n = 3
+print("Original list: ", nums)
+print("Given number: ", n)
+filtered_numbers=list(map(lambda number:number*n,nums))
+print("Result:")
+print(' '.join(map(str,filtered_numbers)))
