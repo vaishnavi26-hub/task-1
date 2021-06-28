@@ -1,0 +1,9 @@
+#count even numbers in list using lambda function
+num= [ ]
+n=int(input('How many numbers  :  '))
+for i in range(n):
+     num.append(int(input('Enter number    :  ')))
+print("Original arrays:",num)
+even_ctr = len(list(filter(lambda x: (x%2 == 0) , num)))
+print("\nNumber of even numbers in the above array: ", even_ctr)
+
