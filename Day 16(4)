@@ -1,0 +1,7 @@
+#find the number that divisible by 9 in list using lambda function.
+nums = [90,56,72,89,45,6,3]
+print("Orginal list:")
+print(nums) 
+result = list(filter(lambda x: (x % 9== 0 ), nums)) 
+print("\nNumbers of the above list divisible by nine:")
+print(result)
