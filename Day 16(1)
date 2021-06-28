@@ -1,0 +1,5 @@
+#create lambda function that multiple two argument
+multi = lambda x, y : x * y
+print(multi(3, 26))
+ 
+print("\nResult ")
